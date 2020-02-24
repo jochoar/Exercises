@@ -5,7 +5,8 @@ public class Ifchained {
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Que sexo eres?\n1)hombre\n2)mujer");
+        System.out.println("Que sexo eres?\n1)hombre\n2)mujer");//
+        
         int sexo = sc.nextInt();
 
         if (sexo == 1){
